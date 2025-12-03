@@ -47,7 +47,7 @@ class Grafo:
             for v, peso in self.adj[u]:
                 G.add_edge(u, v, weight=peso)
 
-        pos = nx.spring_layout(G)  # layout automático
+        pos = nx.spring_layout(G)  
         nx.draw(G, pos, with_labels=True, node_color='skyblue', node_size=1500, edge_color='gray', font_size=12, font_weight='bold')
         labels = nx.get_edge_attributes(G, 'weight')
         nx.draw_networkx_edge_labels(G, pos, edge_labels=labels)
