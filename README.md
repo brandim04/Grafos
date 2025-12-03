@@ -33,4 +33,4 @@ O projeto implementa uma estrutura de grafo genérico, permitindo adicionar e re
 - Serve como base para implementação de algoritmos como Dijkstra, BFS, DFS, etc.
 
 ## 🎥 Vídeo de Explicação
-[Assista à explicação do projeto](COLE_AQUI_O_LINK_DO_VIDEO)
+[Assista à explicação do projeto](https://youtu.be/V2ImKnvdD4U)
